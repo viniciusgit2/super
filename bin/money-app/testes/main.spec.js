@@ -7,6 +7,7 @@ describe(`main cli`,()=>{
     it (`should return hello word `,(done)=>
     {exec(btcconverter,(err,stdout,stderr)=>{if(err) throw err
         expect (stdout).to.be.equal("hallo word")
+        done();
             })
 })
 

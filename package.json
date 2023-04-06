@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
+    "tdd": "node_modules/.bin/mocha ./**/*.spec.js --require babel-register --watch",
     "build2": "./node_modules/.bin/babel --out-dir bin src"
   },
   "preferGlobal": true,
