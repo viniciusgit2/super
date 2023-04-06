@@ -1,1 +1,3 @@
-export const tojson = () => data.json;
+export var tojson = function tojson() {
+  return data.json;
+};
